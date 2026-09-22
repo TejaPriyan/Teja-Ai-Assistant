@@ -1,0 +1,20 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Default permissions for Teja AI",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "shell:allow-open",
+    "shell:allow-spawn",
+    "shell:allow-execute",
+    "shell:allow-kill",
+    "os:allow-platform",
+    "os:allow-arch",
+    "os:allow-os-type",
+    "os:allow-version",
+    "os:allow-family",
+    "os:allow-locale",
+    "os:allow-hostname"
+  ]
+}
